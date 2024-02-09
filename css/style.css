@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* header */
+.header {
+  width: 100%;
+  height: 70px;
+  margin-bottom: 10px;
+  background-color: #e9bb24;
+  position: relative;
+}
+.logoWrapper {
+  margin: auto 10px;
+}
+.logoWrapper img {
+  position: absolute;
+  top: -15px;
+  left: 0px;
+}
+/* cart  */
+.cart {
+  width: 50px;
+  height: 50px;
+  background-color: rgb(229, 232, 232);
+  font-weight: 600;
+  position: absolute;
+  right: 20px;
+  top: 35px;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 20px;
+  border-radius:50%;
+}
+/* scroleble */
+.img {
+  border-radius: 50%;
+}
+figure {
+  width: 60px !important;
+}
+.list img {
+  line-height: 100px;
+  border-radius: 50%;
+  border: none;
+  display: inline-block;
+}
+.list {
+  max-height: 110px;
+  /* border: 1px solid #3f2401; */
+  display: flex;
+  overflow-x: auto;
+  padding-bottom: 0px !important;
+  gap: 20px;
+}
+.list::-webkit-scrollbar {
+  width: 0;
+}
+figure {
+  text-align: center;
+}
+figcaption {
+  margin-top: 5px;
+  text-decoration: none;
+  color: black;
+  font-size: 18;
+  font-weight: 500;
+}
+.catagoryWrapper {
+  padding-top: 20px;
+  padding-left: 5px;
+  height: 100px;
+  box-shadow: cadetblue;
+}
+/* FOOTER */
+.footer-class {
+  background-color: #e9bb24;
+}
+
+footer {
+  background-color: #e9bb24;
+}
+.footer-container {
+  width: 100%;
+  padding: 70px 30px 20px;
+}
+.footer-nav {
+  margin: 30px 0;
+}
+.footer-nav ul {
+  display: flex;
+  justify-content:space-between;
+  
+  list-style-type: none;
+}
+.footer-nav ul li a {
+  color: white;
+  margin: 10px;
+  text-decoration: none;
+  font-size: 1.3em;
+  opacity: 0.7;
+  transition: 0.5s;
+}
+.footer-nav ul li a:hover {
+  opacity: 1;
+}
+.footer-right {
+  background-color: #e9bb24;
+  padding: 20px;
+  text-align: center;
+}
+.footer-right {
+  color: white;
+}
+/* main */
+.mainofmain {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2px;
+  margin: auto;
+}
+.image > img {
+  margin: 20px;
+  width: 110px;
+  height: 100px;
+  border-radius: 10px;
+}
+
+.class1 {
+  background-color: white;
+  border: 0.3px solid rgb(234, 229, 229);
+  margin-top: 20px;
+  width: 150px;
+  align-self: center;
+  justify-self: center;
+  border-radius: 5px;
+}
+.the {
+  font-size: 25px;
+  margin-bottom: 0;
+  text-align: center;
+}
+.the2 {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+}
+.the4 {
+  text-align: center;
+  margin-bottom: 5px;
+}
+.btn {
+  margin-left: 34px;
+  font-size: 15px;
+  background-color: orange;
+  border: none;
+  width: 80px;
+  height: 30px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+.btn:hover {
+  background-color: white;
+  color: orange;
+}
+/* loza css */
+.mainofmain {
+  width: 100%;
+}
+.text-part {
+}

@@ -1,0 +1,111 @@
+/* Resetting Default Margin and Padding */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Bar Styles */
+.navbar {
+    background-color: #FEBA31;
+}
+
+.navbar-brand img {
+    width: 100px;
+    height: 100px;
+}
+
+/* Main Content Styles */
+.main {
+    margin-top: 20px;
+}
+
+/* Image Carousel Styles */
+.SlideImages {
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+/* Styling for Like and Share Icons in Carousel */
+.SlideImageIconLike, .SlideImageIconShare {
+    width: 20px;
+}
+
+/* Styling for Property Type Icon in Description */
+.DescriptionImage {
+    width: 12px;
+    height: 12px;
+}
+
+/* Styling for Map Icon in Description */
+.DescriptionMap {
+    width: 20px;
+    height: 18px;
+}
+
+/* Description Section Styles */
+.Description {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.Description h4 {
+    color: #007bff;
+}
+
+.Description p {
+    margin-bottom: 10px;
+}
+
+/* Styling for Contact Form */
+.DescriptionContact {
+    box-shadow: 1px 1px 17px 3px rgb(122, 121, 121);
+}
+
+/* Styling for Contact Form Elements */
+.DescriptionContactPart {
+    margin-left: 2%;
+}
+
+.DescriptionContactUserName,
+.DescriptionContactUserEmail,
+.DescriptionContactUserPhonenumber,
+.DescriptionContactTextArea {
+    width: 70%;
+    margin-left: 3%;
+}
+
+/* Styling for checkboxes */
+.form-check-input {
+    margin-top: 8px;
+    width: 20px;
+    height: 20px;
+}
+
+/* Additional Ingredients Textarea Styles */
+#additionalIngredients {
+    margin-top: 8px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    padding: 8px;
+    width: 100%;
+    transition: border-color 0.3s ease, background-color 0.3s ease; /* Transition effect */
+}
+
+#additionalIngredients:focus {
+    border-color: #ffb54e; /* Border color on focus */
+    background-color: #fcecb7; /* Background color on focus */
+}
+
+/* Button Styles */
+.OrderButton {
+    background-color: #FEBA31;
+    border-color: #FEBA31;
+    transition: background-color 0.3s ease;
+}
+
+.OrderButton:hover {
+    background-color: #e69522;
+    border-color: #e69522;
+}
